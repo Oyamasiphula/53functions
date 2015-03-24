@@ -1,5 +1,5 @@
 function hello_uppercase(username){
-	this.username = "Hello";
+	hello = "Hello";
 
-	return this.username;
+	return hello;
 }
