@@ -1,6 +1,6 @@
 TestMyCode.run( "testing hello_uppercase function", function(assert){
-	var result = hello_uppercase();
+	var result = hello_uppercase("hellooo");
 	// is the result as we expected?
-	 assert.equals("Hello",result);
+	 assert.equals("HELLOOO",result);
 
 });
