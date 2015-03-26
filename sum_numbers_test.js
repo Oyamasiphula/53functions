@@ -1,6 +1,7 @@
 TestMyCode.run("Testing sum_numbers function" ,function(assert){
-	var result = sum_numbers(10);
-	//is the result the same as expected?
-	assert.equals(result.toString(),[2+4+6+8+10/5].toString());
-
+	//*the 5 is just referenced as n from our function's parameter and it also represent internal feedback [results()] 
+	var result = sum_numbers(5);
+	//*is the result the same as expected?
+	assert.equals(result.toString(),[1+2+3+4+5].toString());
+	//*[1+2+3+4+5].toString()); and The toString() method returns a string representing object!
 });

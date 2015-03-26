@@ -1,12 +1,11 @@
 function sum_numbers(n){
-var	SumNumbers = [];
-var mySum = 0;
+	var sum = 0;
+	for (var i = 1; i <= n; i++) {
 
-for (var i=2; i<=n; i++){
-  	 	Sum = 2+4+6+8+10;
+	  //formula//
+	     sum = sum + i;
+	   //formula//
 
- 	number.push(i);
-}
-
- return SumNumbers;
+	}
+	return sum;
 };
