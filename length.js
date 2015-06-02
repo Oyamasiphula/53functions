@@ -1,6 +1,6 @@
 function length(n){
-	for (var i = 6; i < n.length; i++) {
+	for (var i = 0; i < n.length; i++) {
 		n[i]
 	};
-	return length;
+	return n.length;
 };
