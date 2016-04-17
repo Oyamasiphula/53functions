@@ -39,9 +39,10 @@ TestMyCode.run("Testing sum_numbers function" ,function(assert){
 });
 
 TestMyCode.run("testing length function", function(assert){
-var result = length(5);
+	var string = "oyama"; 
+var result = length(string);
 //*is the result the same as expected?
-assert.equals(result.toString(),[6,7,8,9,10].toString());
+assert.equals(result,5);
 })
 
 TestMyCode.run("test upper function",function(assert){
@@ -60,5 +61,10 @@ TestMyCode.run("test hello list function",function(assert){
 		var result = hello_list(2);
              // To test my code expected results  
         assert.equals("hello World hello World ",result);
+});
+TestMyCode.run("test high_low function",function(assert){
+		var result = high_low();
+             // To test my code expected results  
+        assert.equals("",result);
 });
 
